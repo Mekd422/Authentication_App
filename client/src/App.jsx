@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "./App.css";
-import Register from './Auth/Register';
-import Login from './Auth/Login';
-import Dashboard from './pages/Dashboard';
+import {Register} from './Auth/Register';
+import {Login} from './Auth/Login';
+import {Dashboard} from './pages/Dashboard';
 
 export const App = () => {
   return <Router>
